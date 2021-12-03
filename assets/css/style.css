@@ -147,6 +147,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   letter-spacing: 3px;
   padding-left: 10px;
+  padding-top: 4px;
 
 }
 #header .logo a {
@@ -154,7 +155,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #header .logo img {
 /*  max-height: 40px;*/
-  max-height: 56px;
+  max-height: 76px;
 }
 @media (max-width: 992px) {
   #header .logo {
@@ -187,7 +188,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-family: "Montserrat", sans-serif;
-  font-size: 13px;
+  font-size: 20px;
   font-weight: 600;
   color: #fff;
   white-space: nowrap;
@@ -212,7 +213,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #8a3ecc;
+  background: #114da3;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -356,7 +357,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-height: 500px) {
   #hero {
-    height: 150vh;
+ /*   height: 150vh;*/
+    height: 80vh;
   }
 }
 #hero .carousel, #hero .carousel-inner, #hero .carousel-item, #hero .carousel-item::before {
@@ -1687,3 +1689,5 @@ border-radius:8px;
 .post-item {
     margin-bottom: 6px;
 }
+
+
