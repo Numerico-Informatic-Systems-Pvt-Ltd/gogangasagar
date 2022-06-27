@@ -1,9 +1,4 @@
-/**
-* Template Name: BizPage - v5.8.0
-* Template URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function() {
   "use strict";
 
@@ -320,6 +315,19 @@
   });
 
   /**
+  
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
    * Testimonials slider
    */
  new Swiper('.testimonials-slider', {
@@ -348,6 +356,35 @@
     }
   });
   
+    /**
+  
+   * gallery slider
+   */
+ new Swiper('.gallery-slider', {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination1',
+      type: 'bullets',
+      clickable: true
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 20
+      },
+
+      1200: {
+        slidesPerView: 3,
+        spaceBetween: 20
+      }
+    }
+  });
   
 
   /**
